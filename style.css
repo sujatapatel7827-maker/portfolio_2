@@ -20,7 +20,6 @@ html{
     background-color: #001f7c38;
 }
 
-
 .back-vid{
     position: fixed;
     right: 0;
@@ -28,7 +27,6 @@ html{
     z-index: -1;
     mix-blend-mode:overlay;
 }
-
 
 header{
     display: flex;
@@ -55,7 +53,6 @@ header{
     width: 40px;
     margin: 0 15px;
 }
-
 
 header ul{
     display: flex;
@@ -178,7 +175,7 @@ header ul a:hover{
     box-shadow: 0 0 15px #72a1de81;
 }
 
-/* Gradient Animation */
+/* =============Gradient Animation ==========*/
 .gradient{
     background: linear-gradient(to right,#00aaa7, #7e42a7, #6600c5, #6070fd,#2a46ff, #0099ff, #008ead);
     background-size: 200%;
@@ -232,7 +229,6 @@ header ul a:hover{
   .scroll-down::before {
     top: 30%;
     animation-delay: 0.5s;
-    /* animation: scroll-down 1s ease-in-out infinite; */
   }
   
   @keyframes scroll-down {
@@ -370,9 +366,7 @@ header ul a:hover{
 .card:nth-child(4) h1{
     bottom: 35%;
 }
-
-
-
+/* ========Project============ */
 .my-project{
     display: flex;
     flex-direction: column;

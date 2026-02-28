@@ -35,3 +35,8 @@ closeIcon.addEventListener("click", function(){
     sideBar.classList.remove("open-sidebar");
     sideBar.classList.add("close-sidebar");
 });
+
+// project link Opning
+<button onclick="window.open('https://food-shop-dusky.vercel.app/', '_blank')">
+    <i class='bx bx-link-external'></i> Website
+</button>
